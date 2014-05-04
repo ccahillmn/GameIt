@@ -118,6 +118,10 @@ a:link, a:visited{
 	margin:0;
 }
 
+td .glyphicon {
+	margin-left:15px;
+}
+
 .glyphicon-arrow-up{
 	color:#13987e;
 }
@@ -128,4 +132,23 @@ a:link, a:visited{
 
 .glyphicon-resize-horizontal{
 	color:#333;
+}
+
+footer{
+	display:block;
+	height:60px;
+	clear:both;
+	position:relative;
+	top:20px;
+	border-top:1px solid #ddd;
+	padding:10px 30px;
+}
+
+footer ul{
+	list-style-type:none;
+}
+
+footer ul li{
+	float:right;
+	padding-left:10px;
 }

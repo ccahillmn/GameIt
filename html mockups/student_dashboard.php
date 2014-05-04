@@ -64,7 +64,7 @@
 								</tr>
 								<tr>
 									<td>14</td>
-									<td>You</td>
+									<td><strong>You</strong></td>
 									<td>471</td>
 									<td><span class="glyphicon glyphicon-arrow-up"></span></td>
 								</tr>
@@ -101,7 +101,7 @@
 										</tr>
 										<tr>
 											<td>2</td>
-											<td>Your Group</td>
+											<td><strong>Your Group</strong></td>
 											<td>471</td>
 											<td><span class="glyphicon glyphicon-arrow-down"></span></td>
 										</tr>
@@ -138,7 +138,7 @@
 										</tr>
 										<tr>
 											<td>2</td>
-											<td>You</td>
+											<td><strong>You</strong></td>
 											<td>471</td>
 											<td><span class="glyphicon glyphicon-arrow-down"></span></td>
 										</tr>
@@ -202,9 +202,7 @@
 				<button type="button" class="btn btn-success col-md-4 col-md-offset-4">See More</button>
 			</section>	
 		</div>
-	</div>
 	
-</div>
 
 <?php include 'footer.php'; ?>
 
