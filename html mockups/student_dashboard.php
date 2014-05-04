@@ -40,7 +40,7 @@
 						<h4 class="modal-title" id="myModalLabel">Envrionmental Science: Forestry Fanatic</h4>
 					  </div>
 					  <div class="modal-body">
-							<p><img src="../images/badge3.png" class="img-thumbnail left" id="modal_badge">Take on the role of a forestry management consult to figure out why the Sherwood Forest plant life is declining and it's effect on woodland creatures. Applie your research to an action plan for saving Sherwood Forest.</p>
+							<p><img src="../images/badge3.png" class="img-thumbnail left" id="modal_badge">Take on the role of a forestry management consult to figure out why the Sherwood Forest plant life is declining and it's effect on woodland creatures. Apply your research to an action plan for saving Sherwood Forest.</p>
 					  </div>
 					  <div class="modal-footer">
 						<button type="button" class="btn btn-success">Start Quest!</button>
