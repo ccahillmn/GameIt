@@ -20,14 +20,14 @@
                   </ul>
                 </div>
 				<ul id="quests" class="well clear">
-					<li><span class="glyphicon glyphicon-chevron-left"></span></li>
-					<li><img src="../images/badge1.png" class="img-responsive" alt="Responsive image"></li>
-					<li><img src="../images/badge2.png" class="img-responsive" alt="Responsive image"></li>
-					<li><img src="../images/badge3.png" class="img-responsive" alt="Responsive image"></li>
-					<li><img src="../images/badge4.png" class="img-responsive" alt="Responsive image"></li>
-					<li><img src="../images/badge5.png" class="img-responsive" alt="Responsive image"></li>
-					<li><img src="../images/badge6.png" class="img-responsive" alt="Responsive image"></li>
-					<li><span class="glyphicon glyphicon-chevron-right"></span></li>
+					<li><a href="#"><span class="glyphicon glyphicon-chevron-left"></span></li>
+					<li data-toggle="tooltip" data-placement="left" title="Tooltip on left"><a href="#"><img src="../images/badge1.png" class="img-responsive" alt="Responsive image"></a></li>
+					<li><a href="#"><img src="../images/badge2.png" class="img-responsive" alt="Responsive image"></a></li>
+					<li><a href="#"><img src="../images/badge3.png" class="img-responsive dim" alt="Responsive image"></a></li>
+					<li><a href="#"><img src="../images/badge4.png" class="img-responsive" alt="Responsive image"></a></li>
+					<li><a href="#"><img src="../images/badge5.png" class="img-responsive dim" alt="Responsive image"></a></li>
+					<li><a href="#"><img src="../images/badge6.png" class="img-responsive" alt="Responsive image"></a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span></li>
 				</ul>
 			</section>
 			<section id="leaderboards">
