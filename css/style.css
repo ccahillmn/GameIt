@@ -134,6 +134,18 @@ td .glyphicon {
 	color:#333;
 }
 
+#map h1{
+	text-align:center;
+	width:100%;
+	padding:5px 30px;
+	border-bottom:1px solid #2c3e50;
+}
+
+#map img{
+	position:relative;
+	top:-120px;
+}
+
 footer{
 	display:block;
 	height:60px;
