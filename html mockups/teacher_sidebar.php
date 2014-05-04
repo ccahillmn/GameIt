@@ -3,9 +3,9 @@
                 <img src="../images/girl.png" id="profile_photo" class="img-thumbnail">
                 <h2>Manage</h2>
                 <ul>
-                    <li><a><div class="btn btn-success btn-sm btn-block">Classes &amp; Groups</div></a></li>
-                    <li><a><div class="btn btn-success btn-sm btn-block">Student Accounts</div></a></a></li>
-                    <li><a><div class="btn btn-success btn-sm btn-block">Edit Quests</div></a></a></li>
+                    <li><a><div class="btn btn-success btn-block">Classes &amp; Groups</div></a></li>
+                    <li><a><div class="btn btn-success btn-block">Student Accounts</div></a></a></li>
+                    <li><a><div class="btn btn-success btn-block">Edit Quests</div></a></a></li>
                 </ul>
                 <h2>Classes</h2>
                 <ul>
