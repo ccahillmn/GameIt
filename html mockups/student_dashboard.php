@@ -27,7 +27,7 @@
 					<li><a href="#"><img src="../images/badge4.png" class="img-responsive" alt="Responsive image"></a></li>
 					<li><a href="#"><img src="../images/badge5.png" class="img-responsive dim" alt="Responsive image"></a></li>
 					<li><a href="#"><img src="../images/badge6.png" class="img-responsive" alt="Responsive image"></a></li>
-					<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span></li>
+					<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span></a></li>
 				</ul>
 			</section>
 			<section id="leaderboards">
