@@ -112,6 +112,11 @@ a:link, a:visited{
 	margin:auto 0;
 }
 
+#challenges button{
+	position:relative;
+	top:10px
+}
+
 .dim{
 	-webkit-filter: grayscale(1);
 	filter: grayscale(100%) alpha(opacity=30);
@@ -175,6 +180,13 @@ td .glyphicon {
 
 .modal-footer{
 	height:85px;
+}
+
+#modal_badge{
+	margin-top:0px;
+	margin-right:20px;
+	max-width:120px;
+	max-height:120px;
 }
 
 footer{

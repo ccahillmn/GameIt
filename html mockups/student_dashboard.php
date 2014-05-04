@@ -21,15 +21,34 @@
                 </div>
 				<ul id="quests" class="well clear">
 					<li><a href="#"><span class="glyphicon glyphicon-chevron-left"></span></li>
-					<li data-toggle="tooltip" data-placement="left" title="Tooltip on left"><a href="#"><img src="../images/badge1.png" class="img-responsive" alt="Responsive image"></a></li>
+					<li><a href="#"><img src="../images/badge1.png" class="img-responsive" alt="Responsive image"></a></li>
 					<li><a href="#"><img src="../images/badge2.png" class="img-responsive" alt="Responsive image"></a></li>
-					<li><a href="#"><img src="../images/badge3.png" class="img-responsive dim" alt="Responsive image"></a></li>
+					<li><a href="#" data-toggle="modal" data-target="#myModal"><img src="../images/badge3.png" class="img-responsive dim" alt="Responsive image"></a></li>
 					<li><a href="#"><img src="../images/badge4.png" class="img-responsive" alt="Responsive image"></a></li>
 					<li><a href="#"><img src="../images/badge5.png" class="img-responsive dim" alt="Responsive image"></a></li>
 					<li><a href="#"><img src="../images/badge6.png" class="img-responsive" alt="Responsive image"></a></li>
 					<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span></a></li>
 				</ul>
 			</section>
+			
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel">Envrionmental Science: Forestry Fanatic</h4>
+					  </div>
+					  <div class="modal-body">
+							<p><img src="../images/badge3.png" class="img-thumbnail left" id="modal_badge">Take on the role of a forestry management consult to figure out why the Sherwood Forest plant life is declining and it's effect on woodland creatures. Applie your research to an action plan for saving Sherwood Forest.</p>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-success">Start Quest!</button>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			
 			<section id="leaderboards">
 				<h1>Leaderboards</h1>
 				<div class="row">
@@ -147,8 +166,9 @@
 				</div>
 			</section>
 			<section id="challenges">
-				<h1>Challenges</h1>
-				<div id="challenges">
+				<h1 class="left">Challenges</h1>
+				<button type="button" class="btn btn-danger right">Offer Bounty</button>
+				<div id="challenges" class="clear">
 					<div class="row">
 						<div class="challenge col-md-6"> 
 							<div class="panel panel-warning">
