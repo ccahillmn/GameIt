@@ -1,4 +1,2 @@
 GameIt
 ======
-
-TCSWEDU
