@@ -4,8 +4,12 @@ h1, h2, h3{
 	font-family: 'Quicksand', sans-serif;
 }
 
+.sidebar h1{
+	font-size:2.2vw;
+}
+
 h2{
-	font-size:28px
+	font-size:28px;
 }
 
 a:link, a:visited{
@@ -27,6 +31,15 @@ a:link, a:visited{
 .btn-group{
 	margin: 25px 0 0 0;
 	float:right;
+}
+
+#camera{
+	display:none;
+	position:relative;
+	top:-38px;
+	left:128px;
+	font-size:30px;
+	float:left;
 }
 
 .navbar{
