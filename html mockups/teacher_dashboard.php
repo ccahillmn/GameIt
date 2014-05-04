@@ -18,16 +18,10 @@
                     ]);
 
                     var options = {
-//                        title: 'Company Performance',
-//                        hAxis: {title: 'Year', titleTextStyle: {color: 'red'}}
-                        animations: {
-                            duration: 1000,
-                            easing: 'inAndOut'
-                        },
                         chartArea : {
                             left: '10%',
                             top: '10%',
-                            width: '70%',
+                            width: '100%',
                             height: '75%'
                         },
                         legend: {
@@ -40,13 +34,53 @@
                     chart.draw(data, options);
                 }
             </script>
+            <script type="text/javascript">
+                google.load("visualization", "1", {packages:["corechart"]});
+                google.setOnLoadCallback(drawChart);
+                function drawChart() {
+                    var data = google.visualization.arrayToDataTable([
+                        ['Week', 'Completed Quests'],
+                        ['Week 1',  8],
+                        ['Week 2',  21],
+                        ['Week 3',  13],
+                        ['Week 4',  28]
+                    ]);
+
+                    var options =
+                    {
+                        chartArea : {
+                            left: '10%',
+                            top: '10%',
+                            width: '100%',
+                            height: '75%'
+                        },
+                        legend: {
+                            position: 'top',
+                            alignment: 'end'
+                        },
+                        curveType: 'function',
+                        colors: ['#2c3e50']
+                    };
+
+                    var chart = new google.visualization.LineChart(document.getElementById('chart_div2'));
+                    chart.draw(data, options);
+                }
+            </script>
             <section id="Progress">
                 <h1>Progress Reporting</h1>
                 <div id="progress">
-                    <div class="row">
-                        <div id="chart_div" style="width: 550px; height: 350px;"></div>
-                    </div>
-<!--                    <button type="button" class="btn btn-success col-md-4 col-md-offset-4">See More</button>-->
+                    <table class="reportTable">
+                        <tr>
+                            <td><div id="chart_div" style="width: 500px; height: 350px;"></div></td>
+                            <td><div id="chart_div2" style="width: 500px; height: 350px;"></div></td>
+                        </tr>
+                    </table>
+<!--                    <div class="row">-->
+<!--                        <div id="chart_div" style="width: 550px; height: 350px;"></div>-->
+<!--                    </div>-->
+<!--                    <div class="row" >-->
+<!--                        <div id="chart_div2" style="width: 550px; height: 350px;"></div>-->
+<!--                    </div>-->
                 </div>
             </section>
 
