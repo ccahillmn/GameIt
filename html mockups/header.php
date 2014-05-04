@@ -14,7 +14,7 @@
 </head>
 <body>
 	<div  class="navbar navbar-default" role="navigation">
-		<a class="navbar-brand" href="#">Game It!</a>
+		<a class="navbar-brand" href="#">GAME IT!</a>
 		<ul class="nav navbar-nav navbar-right">
 			<li><a href=''><span class="glyphicon glyphicon-user"></span>  Update Account</a></li>
 			<li><a href=''><span class="glyphicon glyphicon-off"></span>  Logout</a></li>
