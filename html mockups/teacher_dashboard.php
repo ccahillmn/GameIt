@@ -40,10 +40,10 @@
                 function drawChart() {
                     var data = google.visualization.arrayToDataTable([
                         ['Week', 'Completed Quests'],
-                        ['Week 1',  8],
-                        ['Week 2',  21],
-                        ['Week 3',  13],
-                        ['Week 4',  28]
+                        ['Week 1',  4],
+                        ['Week 2',  12],
+                        ['Week 3',  6],
+                        ['Week 4',  14]
                     ]);
 
                     var options =
