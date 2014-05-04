@@ -3,28 +3,31 @@
 <div class="row">
 
 	<!--Sidebar-->
-	<div class="col-sm-4 col-md-3 sidebar">
-		<img src="user" id="photo" class="img-thumbnail">
-		<h2>Classes</h2>
-		<ul>
-			<li><a href="" class="out">Environmental Science</a></li>
-			<li><a href="" class="out">Geometry</a></li>
-			<li><a href="" class="out">U.S. History</a></li>
-		</ul>
-	</div>
+	<?php include 'sidebar.php'; ?>
 
 	<!--Dashboard-->
-	<div class="col-sm-8 col-sm-offset-4 col-md-9 col-md-offset-3 main">
+	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 		<div id="dashboard" role="main">
 			<section id="myquests">
-				<h1>Quests</h1>
-				<ul id="quests" class="well">
+				<h1 class="left">Quests</h1>
+				<div class="btn-group left">
+                  <button type="button" class="btn btn-success">Select Class</button>
+                  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+                  <ul class="dropdown-menu" style="right: 0; left: auto;">
+                    <li><a href="#">Environment Science</a></li>
+                    <li><a href="#">Geometry</a></li>
+                    <li><a href="#">U.S. History</a></li>
+                  </ul>
+                </div>
+				<ul id="quests" class="well clear">
+					<li><span class="glyphicon glyphicon-chevron-left"></span></li>
 					<li><img src="../images/badge1.png" class="img-responsive" alt="Responsive image"></li>
 					<li><img src="../images/badge2.png" class="img-responsive" alt="Responsive image"></li>
-					<li><img src="../images/badge1.png" class="img-responsive" alt="Responsive image"></li>
-					<li><img src="../images/badge2.png" class="img-responsive" alt="Responsive image"></li>
-					<li><img src="../images/badge1.png" class="img-responsive" alt="Responsive image"></li>
-					<li><img src="../images/badge2.png" class="img-responsive" alt="Responsive image"></li>
+					<li><img src="../images/badge3.png" class="img-responsive" alt="Responsive image"></li>
+					<li><img src="../images/badge4.png" class="img-responsive" alt="Responsive image"></li>
+					<li><img src="../images/badge5.png" class="img-responsive" alt="Responsive image"></li>
+					<li><img src="../images/badge6.png" class="img-responsive" alt="Responsive image"></li>
+					<li><span class="glyphicon glyphicon-chevron-right"></span></li>
 				</ul>
 			</section>
 			<section id="leaderboards">
@@ -45,19 +48,19 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>1</td>
+									<td>13</td>
 									<td>Gwen</td>
 									<td>520</td>
 									<td><span class="glyphicon glyphicon-arrow-up"></span></td>
 								</tr>
 								<tr>
-									<td>2</td>
-									<td>You</td>
+									<td>14</td>
+									<td><strong>You</strong></td>
 									<td>471</td>
 									<td><span class="glyphicon glyphicon-arrow-up"></span></td>
 								</tr>
 								<tr>
-									<td>3</td>
+									<td>15</td>
 									<td>Steve</td>
 									<td>325</td>
 									<td><span class="glyphicon glyphicon-arrow-down"></span></td>
@@ -83,19 +86,19 @@
 									<tbody>
 										<tr>
 											<td>1</td>
-											<td>Gwen</td>
+											<td>Group 3</td>
 											<td>520</td>
 											<td><span class="glyphicon glyphicon-arrow-up"></span></td>
 										</tr>
 										<tr>
 											<td>2</td>
-											<td>You</td>
+											<td><strong>Your Group</strong></td>
 											<td>471</td>
 											<td><span class="glyphicon glyphicon-arrow-down"></span></td>
 										</tr>
 										<tr>
 											<td>3</td>
-											<td>Steve</td>
+											<td>Group 1</td>
 											<td>325</td>
 											<td><span class="glyphicon glyphicon-resize-horizontal"></span></td>
 										</tr>
@@ -103,39 +106,10 @@
 								</table>
 							</div>
 						</div>
-							<thead>
-								<tr>
-									<th>#</th>
-									<th>Name</th>
-									<th>Points</th>
-									<th>Change</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>1</td>
-									<td>Gwen</td>
-									<td>520</td>
-									<td><span class="glyphicon glyphicon-arrow-up"></span></td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>You</td>
-									<td>471</td>
-									<td><span class="glyphicon glyphicon-arrow-up"></span></td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td>Steve</td>
-									<td>325</td>
-									<td><span class="glyphicon glyphicon-arrow-down"></span></td>
-								</tr>
-							</tbody>
-						</table>
 					</div>
 					<div class="board col-md-4">
 						<div class="panel panel-primary">
-							<div class="panel-heading"><h2>Environmental Science</h2></div>
+							<div class="panel-heading"><h2>U.S. History</h2></div>
 							<div class="panel-body">
 								<table class="table">
 									<thead>
@@ -149,103 +123,77 @@
 									<tbody>
 										<tr>
 											<td>1</td>
-											<td>Gwen</td>
+											<td>Bill</td>
 											<td>520</td>
 											<td><span class="glyphicon glyphicon-arrow-up"></span></td>
 										</tr>
 										<tr>
 											<td>2</td>
-											<td>You</td>
+											<td><strong>You</strong></td>
 											<td>471</td>
-											<td><span class="glyphicon glyphicon-arrow-up"></span></td>
+											<td><span class="glyphicon glyphicon-arrow-down"></span></td>
 										</tr>
 										<tr>
 											<td>3</td>
-											<td>Steve</td>
+											<td>Sue</td>
 											<td>325</td>
-											<td><span class="glyphicon glyphicon-arrow-down"></span></td>
+											<td><span class="glyphicon glyphicon-arrow-up"></span></td>
 										</tr>
 									</tbody>
 								</table>
 							</div>
 						</div>
-							<thead>
-								<tr>
-									<th>#</th>
-									<th>First Name</th>
-									<th>Last Name</th>
-									<th>Username</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>1</td>
-									<td>Mark</td>
-									<td>Otto</td>
-									<td>@mdo</td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>Jacob</td>
-									<td>Thornton</td>
-									<td>@fat</td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td>Larry</td>
-									<td>the Bird</td>
-									<td>@twitter</td>
-								</tr>
-							</tbody>
-						</table>
 					</div>
 				</div>
 			</section>
 			<section id="challenges">
 				<h1>Challenges</h1>
-				<div id="challenges" class="row well">
-					<div class="challenge col-md-4"> 
-						<div class="panel panel-warning">
-							<div class="panel-heading"><h1>Geometry: Weekly Challenge<h1></div>
-							<div class="panel-body">
-								<img src="../images/user.png" class="photo thumb img-circle">
-								<p>Provide solutions for three problems of your choosing from Unit 1</p>
+				<div id="challenges">
+					<div class="row">
+						<div class="challenge col-md-6"> 
+							<div class="panel panel-warning">
+								<div class="panel-heading"><h2><strong>Geometry:</strong> Weekly Challenge<h2></div>
+								<div class="panel-body">
+									<img src="../images/geo.png" class="photo img-thumbnail">
+									<p>Provide solutions for three problems of your choosing from Unit 1</p>
+								</div>
+							</div>
+						</div>
+						<div class="challenge col-md-6"> 
+							<div class="panel panel-danger">
+								<div class="panel-heading"><h2><strong>Enviro Sci:</strong> Bounty from Sarah H.</h2></div>
+								<div class="panel-body">
+									<img src="../images/girl.png" class="photo img-thumbnail">
+									<p>Make me a screencast explaining the cycle of decomposition</p>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="challenge col-md-4"> 
-						<div class="panel panel-primary">
-							<div class="panel-heading"><h1>Enviro Sci: Bounty from Sarah H.</h1></div>
+					<div class="row">
+					<div class="challenge col-md-6"> 
+						<div class="panel panel-danger">
+							<div class="panel-heading"><h2><strong>Geometry:</strong> Bounty from Dan C.</h2></div>
 							<div class="panel-body">
-								<img src="../images/user.png" class="photo thumb img-circle">
-								<p>Make me a screencast explaining the cycle of decomposition</p>
-							</div>
-						</div>
-					</div>
-					<!--<div class="challenge col-md-3"> 
-						<div class="panel panel-primary">
-							<div class="panel-heading"><h1>Geometry: Bounty from Dan C.</h1></div>
-							<div class="panel-body">
-								<img src="../images/user.png" class="photo thumb">
+								<img src="../images/boy.png" class="photo img-thumbnail">
 								<p>Create a 3D model demonstrating the benefits of the RTFM approach.</p>
 							</div>
 						</div>
-					</div>-->
-					<div class="challenge col-md-4"> 
+					</div>
+					<div class="challenge col-md-6"> 
 						<div class="panel panel-warning">
-							<div class="panel-heading"><h1>U.S. History: Weekly Challenge</h1></div>
+							<div class="panel-heading"><h2><strong>U.S. History:</strong> Weekly Challenge</h2></div>
 							<div class="panel-body">
-								<img src="../images/user.png" class="photo thumb img-circle">
+								<img src="../images/flag.jpg" class="photo img-thumbnail">
 								<p>Find a primary document written by a southern slave during the Civil War.</p>
 							</div>
 						</div>
 					</div>
 				</div>
+				</div>
+				<button type="button" class="btn btn-success col-md-4 col-md-offset-4">See More</button>
 			</section>	
 		</div>
-	</div>
 	
-</div>
 
 <?php include 'footer.php'; ?>
 
