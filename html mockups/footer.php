@@ -10,7 +10,7 @@
 						</ul>
 					</div>
 				</footer>
-			</div> //end main
-		</div> //end row
-	</div> //end container
+			</div>
+		</div>
+	</div> 
 </body>

@@ -3,12 +3,11 @@
                 <img src="../images/girl.png" id="profile_photo" class="img-thumbnail">
                 <h2>Manage</h2>
                 <ul>
-                    <li><a href="map.php" class="out">Classes<span class="glyphicon glyphicon-chevron-right"></span></a></li>
-                    <li><a href="map.php" class="out">Students<span class="glyphicon glyphicon-chevron-right"></span></a></li>
-                    <li><a href="map.php" class="out">Quests<span class="glyphicon glyphicon-chevron-right"></span></a></li>
-                    <li><a href="map.php" class="out">Tasks<span class="glyphicon glyphicon-chevron-right"></span></a></li>
+                    <li><a><div class="btn btn-success btn-sm btn-block">Classes &amp; Groups</div></a></li>
+                    <li><a><div class="btn btn-success btn-sm btn-block">Student Accounts</div></a></a></li>
+                    <li><a><div class="btn btn-success btn-sm btn-block">Edit Quests</div></a></a></li>
                 </ul>
-                <h2>Your Classes</h2>
+                <h2>Classes</h2>
                 <ul>
                         <li><a href="map.php" class="out">Environmental Science <span class="glyphicon glyphicon-chevron-right"></span></a></li>
                         <li><a href="map.php" class="out">Geometry <span class="glyphicon glyphicon-chevron-right"></span></a></li>
